@@ -67,7 +67,15 @@ function App() {
           THIS IS A QUIZ WEBSITE
         </Typography>
 
-        {score === totalQuestions ? (
+        {gameover ? (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "20px",
+            }}
+            
+          {score === totalQuestions ? (
           <div
             style={{
               display: "flex",
