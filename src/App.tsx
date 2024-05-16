@@ -67,7 +67,7 @@ function App() {
           THIS IS A QUIZ WEBSITE
         </Typography>
 
-        {gameover || score === totalQuestions ? (
+        {score === totalQuestions ? (
           <div
             style={{
               display: "flex",
